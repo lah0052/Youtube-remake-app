@@ -1,0 +1,31 @@
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+ 
+  div.scrollmenu a:hover {
+    background-color: rgb(192, 189, 189);
+  }
+.buttonSpacing{
+  margin-left: 10px;
+}
+.buttonFormat{
+  display: inline-block;
+  color: black;
+  border-color: rgb(219, 219, 219);
+  background-color: rgba(242,242,242);
+  text-decoration: none;
+  margin-left: 245;
+  border-radius: 24px;
+}
+
+.scrollBar {
+  position: fixed;
+  width: 1500px;
+  overflow-x: auto;
+  
+  right: 0;
+  left: 247px;
+}

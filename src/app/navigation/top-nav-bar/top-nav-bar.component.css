@@ -1,0 +1,28 @@
+.backgroundColor{
+    background-color: rgb( 249 ,249, 249);
+}
+.youtubeLogoSpacing{
+    margin-left: 25px;
+   
+}
+.dropdownSpacing{
+    margin-left: 10px ;
+    text-decoration: none;
+   color: black;
+}
+.iconSizing{
+    width: 20px;
+    height: 20px;
+}
+.searchBarSpacing{
+    width: 600px;
+    margin-left: 110px;
+}
+.micSpacing{
+    margin-left: -60px;
+}
+
+
+.threeDotSpacing{
+    
+}

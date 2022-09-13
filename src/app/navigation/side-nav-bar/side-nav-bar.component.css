@@ -1,0 +1,29 @@
+.size{
+    
+    font-size: 75%;
+    padding: 0px 3px;
+    color:rgb(65, 62, 62);
+    text-decoration: none;
+}
+.scrollBar {
+    position: fixed;
+    width: 150px;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+  }
+.GoogleLLCFormat{
+    font-size: 70%;
+    color: lightgray;
+}
+.iconSpacing{
+    padding: 0px 17px ;
+    margin-bottom: 0;
+}
+.signInButtonFormat{
+    padding: 0px 25px;
+}
+.videoCommentSubscribeFormat{
+    font-size: 85%;
+    padding: 0px 25px
+}
