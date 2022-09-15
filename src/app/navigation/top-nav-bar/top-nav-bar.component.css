@@ -22,7 +22,11 @@
     margin-left: -60px;
 }
 
-
+.signInFormating{
+    color:rgb( 6 ,95, 212);
+    border-color:  rgb( 6 ,95, 212);
+    fill: none;
+}
 .threeDotSpacing{
     
 }
