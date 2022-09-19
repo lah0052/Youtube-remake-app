@@ -4,29 +4,51 @@
 .youtubeLogoSpacing{
     margin-left: 25px;
    
+    
 }
 .dropdownSpacing{
     margin-left: 10px ;
     text-decoration: none;
-   color: black;
-}
-.iconSizing{
-    width: 20px;
-    height: 20px;
-}
-.searchBarSpacing{
-    width: 600px;
-    margin-left: 110px;
-}
-.micSpacing{
-    margin-left: -60px;
+    color: black;
 }
 
+.searchBarSpacing{
+    width: 190%;
+ 
+}
+.micFormatting{
+    color: black;
+    border-radius: 50%;
+    background-color: rgb( 249 ,249, 249);
+    border-color: rgb( 249 ,249, 249);
+    
+}
+.micFormattingModal{
+    color: black;
+    border-radius: 50%;
+    background-color: rgb( 206 ,206, 206);
+    border-color: rgb( 206,206, 206);
+    
+}
 .signInFormating{
     color:rgb( 6 ,95, 212);
     border-color:  rgb( 6 ,95, 212);
     fill: none;
 }
+.signInFormating:hover{
+    background-color: transparent;
+}
+.signInFormating:active{
+
+}
 .threeDotSpacing{
+    color: black;
+    border-radius: 50%;
+    background-color: rgb( 249 ,249, 249);
+    border-color: rgb( 249 ,249, 249);
     
+   
+}
+.micSpacing{
+margin: 0;
 }

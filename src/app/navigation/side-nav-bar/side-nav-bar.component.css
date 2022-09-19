@@ -5,6 +5,7 @@
     color:rgb(65, 62, 62);
     text-decoration: none;
 }
+
 .scrollBar {
     position: fixed;
     width: 150px;
@@ -25,6 +26,12 @@
     color:rgb( 6 ,95, 212);
     border-color:  rgb( 6 ,95, 212);
     fill: none;
+}
+.signInButtonFormat:hover{
+    background-color: transparent;
+}
+.signInButtonFormat:active{
+
 }
 .videoCommentSubscribeFormat{
     font-size: 85%;

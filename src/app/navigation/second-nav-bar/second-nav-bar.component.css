@@ -1,31 +1,56 @@
 
-.buttonSpacing{
-  margin-left: 10px;
-}
+/*make the buttons a component
+*/
 .buttonFormat{
   display: inline-block;
   color: rgb(69, 69, 69);
   border-color: rgb(217, 217, 217);
   background-color: rgb(242,242,242);
   text-decoration: none;
-  margin-left: 245;
+  margin-left: 245px;
   border-radius: 24px;
   height: 30px;
   font-size: 90%;
   margin-left: 10px;
 }
 
-.button:active{
+.buttonFormat:active{
   background-color: black;
   color: white;
   border-color: black;
 }
 
-.scrollBar {
-  position: fixed;
-  width: 1500px;
+.catagoryScroller{
+  display : grid;
+  gap: 0%;
+  grid-auto-flow: column;
+  grid-auto-columns: 20%;
   overflow-x: auto;
-  
-  right: 0;
-  left: 247px;
+  over-scroll-behavior-inline: contain;
 }
+
+ .categoryScroller2{
+    margin-left: 11%;
+    
+    overflow-x: hidden;
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-flow:  column;
+    grid-auto-columns: 1fr;
+
+ }
+ 
+ .carouselFormating{
+  margin-bottom: 0;
+  
+  margin-left: 0px;
+  width: 100%;
+  height: 50%;
+ }
+
+ .carouselGroupsFormating{
+position: relative;
+ 
+ }
+
+ 
