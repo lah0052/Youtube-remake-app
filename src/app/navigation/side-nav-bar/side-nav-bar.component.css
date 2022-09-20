@@ -22,7 +22,7 @@
     margin-bottom: 0;
 }
 .signInButtonFormat{
-    
+    border-radius: 2px;
     color:rgb( 6 ,95, 212);
     border-color:  rgb( 6 ,95, 212);
     fill: none;
