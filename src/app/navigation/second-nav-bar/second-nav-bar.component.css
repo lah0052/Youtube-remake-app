@@ -7,11 +7,12 @@
   border-color: rgb(217, 217, 217);
   background-color: rgb(242,242,242);
   text-decoration: none;
-  margin-left: 245px;
   border-radius: 24px;
   height: 30px;
   font-size: 90%;
   margin-left: 10px;
+  
+
 }
 
 .buttonFormat:active{
@@ -20,25 +21,14 @@
   border-color: black;
 }
 
-.catagoryScroller{
-  display : grid;
-  gap: 0%;
-  grid-auto-flow: column;
-  grid-auto-columns: 20%;
-  overflow-x: auto;
-  over-scroll-behavior-inline: contain;
+.arrowFormat{
+  color: black;
+  background-color: black;
+  border-color: black;
+  width: 2%;
 }
 
- .categoryScroller2{
-    margin-left: 11%;
-    
-    overflow-x: hidden;
-    display: grid;
-    grid-auto-flow:column;
-    grid-auto-flow:  column;
-    grid-auto-columns: 1fr;
 
- }
  
  .carouselFormating{
   margin-bottom: 0;
