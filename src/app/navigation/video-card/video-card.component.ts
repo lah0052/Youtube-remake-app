@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-video-card',
@@ -7,7 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoCardComponent implements OnInit {
 
-  constructor() { }
+  @Input() img: string;
+  @Input() time: string;
+  @Input() video_title: string;
+  @Input() channel_name: string;
+  @Input() views_date: string;
+
+
+  constructor() { 
+    this.img = "";
+    this.time = "";
+    this.video_title = "No title";
+    this.channel_name = "No Channel Name";
+    this.views_date = "No Date";
+  }
 
   ngOnInit(): void {
   }
