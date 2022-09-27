@@ -9,6 +9,7 @@ export class VideoCardComponent implements OnInit {
 
   @Input() img: string;
   @Input() time: string;
+  @Input() profile: string;
   @Input() video_title: string;
   @Input() channel_name: string;
   @Input() views_date: string;
@@ -17,6 +18,7 @@ export class VideoCardComponent implements OnInit {
   constructor() { 
     this.img = "";
     this.time = "";
+    this.profile = "";
     this.video_title = "No title";
     this.channel_name = "No Channel Name";
     this.views_date = "No Date";

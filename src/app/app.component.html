@@ -17,19 +17,20 @@
 
 </ul> 
 </div>
-
-<div class = "row row row-cols-1 row-cols-md-4 nav-item margins">
+<div class = "nav-item backgroundColor">
+<div class = "row row row-cols-1 row-cols-md-4 nav-item margins" >
     <div *ngFor = "let video of videos">
         <app-video-card 
             img = {{video.img}} 
             time = {{video.time}} 
+            profile= {{video.profile}}
             video_title = {{video.video_title}} 
             channel_name = {{video.channel_name}} 
             views_date = {{video.views_date}}>
         </app-video-card>
     </div>
 </div>
-
+</div>
 
 
 
