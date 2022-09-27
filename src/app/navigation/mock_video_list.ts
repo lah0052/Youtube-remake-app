@@ -1,4 +1,4 @@
-export const mock_video_card = [
+export const mock_video_list = [
     {
         img:  "assets/tn1.webp",
         time: "27:46",

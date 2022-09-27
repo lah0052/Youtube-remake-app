@@ -1,4 +1,4 @@
-<div style = "">
+
  <div style= "height: 50px;">
     <app-top-nav-bar> </app-top-nav-bar>
 </div>
@@ -18,17 +18,19 @@
 </ul> 
 </div>
 
-<div>
-<app-video-card  img = "assets/tn1.webp" time = "27:46" video_title = "Murderer, One Punch Killer, Sniper & Gangster On How It Feels To Kill" channel_name = "LADbible TV" views_date = "6M views * 1 month ago">Loading...</app-video-card>
-<app-video-card  img = "assets/tn2.webp" time = "15:19" video_title = "I Gave My Goldfish $50,000 to Trade Stocks" channel_name = "Michael Reeves" views_date = "8.6M views * 5 months ago">Loading...</app-video-card>
-<app-video-card  img = "assets/tn3.webp" time = "0:56" video_title = "Life could be a dream" channel_name = "Asha7494" views_date = "10M views * 1 year ago">Loading...</app-video-card>
-<app-video-card  img = "assets/tn4.webp" time = "1:35" video_title = "ok i pull up" channel_name = "Knoxeroni" views_date = "5.2M views * 3 months ago">Loading...</app-video-card>
-</div>
+<div class = "row row row-cols-1 row-cols-md-4 nav-item margins">
+    <div *ngFor = "let video of videos">
+        <app-video-card 
+            img = {{video.img}} 
+            time = {{video.time}} 
+            video_title = {{video.video_title}} 
+            channel_name = {{video.channel_name}} 
+            views_date = {{video.views_date}}>
+        </app-video-card>
+    </div>
 </div>
 
 
-<!--
-<app-second-nav-bar> </app-second-nav-bar>
--->
+
 
 

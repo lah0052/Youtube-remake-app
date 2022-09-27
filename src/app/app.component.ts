@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { mock_video_card } from './navigation/mock_video_card';
+import {  mock_video_list } from './navigation/mock_video_list';
 import { VideoCardModel } from './navigation/video-card.model';
 
 @Component({
@@ -9,12 +9,12 @@ import { VideoCardModel } from './navigation/video-card.model';
 })
 export class AppComponent {
   title = 'hello-world-app';
-  video: VideoCardModel [] = [];
+  videos: VideoCardModel [] = [];
 
   constructor() {
-    for(var video of mock_video_card){
+    for(var video of mock_video_list){
       console.log(video);
-      this.video.push(video);
+      this.videos.push(video);
     }
   }
 }
