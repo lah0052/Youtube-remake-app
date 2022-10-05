@@ -9,12 +9,5 @@ import { VideoCardModel } from './navigation/video-card.model';
 })
 export class AppComponent {
   title = 'hello-world-app';
-  videos: VideoCardModel [] = [];
-
-  constructor() {
-    for(var video of mock_video_list){
-      console.log(video);
-      this.videos.push(video);
-    }
-  }
+  
 }

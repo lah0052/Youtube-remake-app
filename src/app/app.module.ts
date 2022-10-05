@@ -6,6 +6,12 @@ import { TopNavBarComponent } from './navigation/top-nav-bar/top-nav-bar.compone
 import { SecondNavBarComponent } from './navigation/second-nav-bar/second-nav-bar.component';
 import { SideNavBarComponent } from './navigation/side-nav-bar/side-nav-bar.component';
 import { VideoCardComponent } from './navigation/video-card/video-card.component';
+import { HomeLayoutComponent } from './routingPages/home-layout/home-layout.component';
+import { ExplorePageComponent } from './routingPages/explore-page/explore-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ShortsLayoutComponent } from './routingPages/shorts-layout/shorts-layout.component';
+import { SubscriptionsLayoutComponent } from './routingPages/subscriptions-layout/subscriptions-layout.component';
+import { SigninLayoutComponent } from './routingPages/signin-layout/signin-layout.component';
 
 
 @NgModule({
@@ -15,10 +21,17 @@ import { VideoCardComponent } from './navigation/video-card/video-card.component
     SecondNavBarComponent,
     SideNavBarComponent,
     VideoCardComponent,
+    HomeLayoutComponent,
+    ExplorePageComponent,
+    ShortsLayoutComponent,
+    SubscriptionsLayoutComponent,
+    SigninLayoutComponent,
+    
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

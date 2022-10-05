@@ -9,7 +9,7 @@
       </svg>
 
       <!--Youtube logo-->
-      <a class="navbar-brand nav-item youtubeLogoSpacing" href="#"><img src="assets/Youtube logo.png" width="125"
+      <a class="navbar-brand nav-item youtubeLogoSpacing" routerLink = "/home" routerLinkActive = "active"><img src="assets/Youtube logo.png" width="125"
           height="35"></a>
       <!DOCTYPE html>
     </div>
@@ -187,10 +187,8 @@
     <div class="flex-column">
       <!--sign in button-->
       <nav class="nav-item signInFormating">
-        <a class="nav-item signInFormating"
-          href="https://accounts.google.com/v3/signin/identifier?dsh=S1208813034%3A1663290676036323&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWrtgqgruS7_Mriad7_yKeHKCPQzyjbR26_V5omQoCdp4uVdTHD-S2x3J-6MXZ_BCRVJKwNW">
+        <a class="nav-item signInFormating"  routerLink = "/signIn" routerLinkActive = "active">
           <button class="btn btn-outline-success nav-item signInFormating "
-            href="https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620"
             type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
               class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
