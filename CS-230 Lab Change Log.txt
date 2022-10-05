@@ -1,0 +1,23 @@
+9-26-2022
+Changes
+	1.Made my previous card where i can use the ngFor loop to make them by using attributes and data binding
+	2.New mock list with multiple instances
+	3.New model class
+	4.Made ngFor loop to create the cards
+	5.In app component html, made the video card into rows and columns and added ngFor
+	6.attributes
+		img = the thumbnail
+		time = timestamp
+		profile = profile pic 
+		video_title = video title
+		channel _name = channel name
+		Views_date = amount of views and time since upload
+9-27-2022
+Changes
+	1.Formatted the video cards 
+	2.Brought the time stamp on top of thumbnail
+	3.Changed fonts and font weight 
+	4.Margins
+	5.Limited text to 2 lines for the title
+	6.Added background color behind the cards
+	7.Change top nav bar background color
