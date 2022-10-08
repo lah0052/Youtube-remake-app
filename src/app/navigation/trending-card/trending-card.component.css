@@ -1,0 +1,18 @@
+.card{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.title{
+    font-size: 105%;
+    color: black;
+    font-weight: 500;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+}
+.channelDescription{
+    font-size: 75%;
+    color: rgb(148,148,148);
+    font-weight: 500;
+}

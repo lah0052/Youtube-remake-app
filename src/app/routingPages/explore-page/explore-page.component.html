@@ -1,1 +1,29 @@
-explore-page works!
+<div style= "height: 50px;">
+    <app-top-nav-bar> </app-top-nav-bar>
+</div>
+
+<div>
+<ul class= "navbar">
+    <nav class ="nav-item">
+        <app-side-nav-bar> </app-side-nav-bar>
+
+    </nav>
+</ul>
+</div>
+
+<div  class = "nav-item backgroundColor">
+<div class = "d-flex align-items-start flex-row nav-item catCardFormat" >
+    <div *ngFor = "let category of categories" >
+        <app-category-card 
+            icon = {{category.icon}} 
+            title = {{category.title}} 
+            >
+        </app-category-card>
+    </div>
+</div>
+</div>
+
+<div class = "nav-item backgroundColor trendingCardFormat" >
+    <app-trending-card></app-trending-card>
+   
+</div>

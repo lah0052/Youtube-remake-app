@@ -12,6 +12,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { ShortsLayoutComponent } from './routingPages/shorts-layout/shorts-layout.component';
 import { SubscriptionsLayoutComponent } from './routingPages/subscriptions-layout/subscriptions-layout.component';
 import { SigninLayoutComponent } from './routingPages/signin-layout/signin-layout.component';
+import { MusicComponent } from './routingPages/music/music.component';
+import { CategoryCardComponent } from './navigation/category-card/category-card.component';
+import { TrendingCardComponent } from './navigation/trending-card/trending-card.component';
 
 
 @NgModule({
@@ -26,6 +29,9 @@ import { SigninLayoutComponent } from './routingPages/signin-layout/signin-layou
     ShortsLayoutComponent,
     SubscriptionsLayoutComponent,
     SigninLayoutComponent,
+    MusicComponent,
+    CategoryCardComponent,
+    TrendingCardComponent,
     
     
   ],

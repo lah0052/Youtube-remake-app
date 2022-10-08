@@ -1,0 +1,26 @@
+.cardFormat{
+    width: 175px;
+    height: 100px;
+    border-color: transparent;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.cardFormat:hover{
+    background-color: grey;
+}
+.cardFormat:active{
+    background-color: grey;
+}
+
+
+.iconFormat{
+    margin-top: 7%;
+    width: 25px;
+    height: 25px;
+    margin-left: 7%;
+}
+
+.textFormat{
+    font-weight: 550;
+}
