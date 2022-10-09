@@ -16,6 +16,9 @@ import { MusicComponent } from './routingPages/music/music.component';
 import { CategoryCardComponent } from './navigation/category-card/category-card.component';
 import { TrendingCardComponent } from './navigation/trending-card/trending-card.component';
 import { ShortsCardComponent } from './navigation/shorts-card/shorts-card.component';
+import { MusicNavbarComponent } from './navigation/music-navbar/music-navbar.component';
+import { SongCardComponent } from './navigation/song-card/song-card.component';
+import { PlaylistCardComponent } from './navigation/playlist-card/playlist-card.component';
 
 
 @NgModule({
@@ -34,6 +37,9 @@ import { ShortsCardComponent } from './navigation/shorts-card/shorts-card.compon
     CategoryCardComponent,
     TrendingCardComponent,
     ShortsCardComponent,
+    MusicNavbarComponent,
+    SongCardComponent,
+    PlaylistCardComponent,
     
     
   ],

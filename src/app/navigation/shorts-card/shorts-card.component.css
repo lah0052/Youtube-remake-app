@@ -10,6 +10,7 @@
     width:30%;
 }
 .title{
+    margin-top: -4%;
     font-size: 105%;
     color: black;
     font-weight: 410;
@@ -18,15 +19,22 @@
     overflow: hidden;
 }
 .channel{
+    
     font-size: 75%;
     color: rgb(148,148,148);
     font-weight: 410;
 }
 .vd{
+    margin-top: -6%;
     font-size: 75%;
     color: rgb(148,148,148);
     font-weight: 410;
 }
 .logo{
-
+    margin-top: 45%;
+    margin-left: 25%;
+    
+}
+.bgcolor{
+    background-color: rgb(236,236,236);
 }
