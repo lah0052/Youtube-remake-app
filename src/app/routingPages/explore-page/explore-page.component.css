@@ -10,4 +10,20 @@
 }
 .trendingCardFormat{
     margin-left: 14.8%;
+    width: 85.2%;
+}
+.sectionHeading{
+    
+    margin-left: 8%;
+    color: black;
+    font-weight: 410;
+}
+.sectionDivider{
+    margin-left: 8%;
+    width: 80%;
+}
+.shorts{
+    margin-top: -0.9%;
+    margin-left: 14.8%;
+    width: 85.2%;
 }

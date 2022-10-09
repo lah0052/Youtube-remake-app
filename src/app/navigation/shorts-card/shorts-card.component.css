@@ -1,0 +1,32 @@
+.card{
+    margin-left: 8%;
+    border-color: transparent;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.img{
+    margin-left: 35%;
+    border-radius: 0px;
+    width:30%;
+}
+.title{
+    font-size: 105%;
+    color: black;
+    font-weight: 410;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+}
+.channel{
+    font-size: 75%;
+    color: rgb(148,148,148);
+    font-weight: 410;
+}
+.vd{
+    font-size: 75%;
+    color: rgb(148,148,148);
+    font-weight: 410;
+}
+.logo{
+
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-trending-card',
@@ -6,8 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trending-card.component.css']
 })
 export class TrendingCardComponent implements OnInit {
-
-  constructor() { }
+  @Input() thumbnail: string;
+  @Input() time: string;
+  @Input() title: string;
+  @Input() cvd: string;
+  @Input() description: string;
+  constructor() {
+    this.thumbnail = "";
+    this.time = ""; 
+    this.title = "";
+    this.cvd = "";
+    this.description = "";
+  }
+      
 
   ngOnInit(): void {
   }

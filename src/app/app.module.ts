@@ -15,6 +15,7 @@ import { SigninLayoutComponent } from './routingPages/signin-layout/signin-layou
 import { MusicComponent } from './routingPages/music/music.component';
 import { CategoryCardComponent } from './navigation/category-card/category-card.component';
 import { TrendingCardComponent } from './navigation/trending-card/trending-card.component';
+import { ShortsCardComponent } from './navigation/shorts-card/shorts-card.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { TrendingCardComponent } from './navigation/trending-card/trending-card.
     MusicComponent,
     CategoryCardComponent,
     TrendingCardComponent,
+    ShortsCardComponent,
     
     
   ],
