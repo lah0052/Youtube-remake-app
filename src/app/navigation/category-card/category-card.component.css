@@ -2,15 +2,17 @@
     width: 175px;
     height: 100px;
     border-color: transparent;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
+  
+    
     
 }
 .cardFormat:hover{
-    background-color: grey;
+    background-color: rgb(229,229,229);
 }
 .cardFormat:active{
-    background-color: grey;
+    background-color: rgb(229,229,229);
 }
 
 

@@ -12,11 +12,20 @@
 </div>
 
 <div  class = "nav-item backgroundColor">
-<div class = "d-flex align-items-start flex-row nav-item catCardFormat" >
-    <div *ngFor = "let category of categories" >
+<div class = "d-flex  flex-row nav-item catCardFormat">
+    <div *ngFor = "let x of categories" >
         <app-category-card 
-            icon = {{category.icon}} 
-            title = {{category.title}} 
+            icon = {{x.icon}} 
+            title = {{x.title}} 
+            >
+        </app-category-card>
+    </div>
+</div>
+<div class = "d-flex flex-row nav-item catCardFormat2">
+    <div *ngFor = "let y of categories2" >
+        <app-category-card 
+            icon = {{y.icon}} 
+            title = {{y.title}} 
             >
         </app-category-card>
     </div>
@@ -65,9 +74,12 @@
     "></app-trending-card>
     <div class="border-top my-3 nav-item sectionDivider"></div>
 </div>
+<div class="backgroundColor" >
+<p class = "section-title nav-item sectionHeading2 ">Trending Shorts</p>
+</div>   
 
-<div class = "nav-item backgroundColor nav-item shorts" >
-    <p class = "section-title nav-item sectionHeading">Trending Shorts</p>
+<div class = "nav-item backgroundColor">
+<div class = "d-flex  flex-row  nav-item shorts" >
     
     <app-shorts-card thumbnail = "/assets/sth1.webp"
         logo = "/assets/shortslogo.png"
@@ -106,4 +118,5 @@
         vd = "162K views · 1 day ago"></app-shorts-card>
     
         <div class="border-top my-3 nav-item sectionDivider"></div>
+</div>
 </div>

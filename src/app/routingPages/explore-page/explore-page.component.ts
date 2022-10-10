@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 import { mock_category_list } from 'src/app/navigation/mock_category_list';
 import { CategoryCardModel } from 'src/app/navigation/category-card.model';
-
+import {mock_category_list2} from 'src/app/navigation/mock_category_list2';
 
 
 @Component({
@@ -12,12 +12,19 @@ import { CategoryCardModel } from 'src/app/navigation/category-card.model';
 export class ExplorePageComponent{
 
   categories: CategoryCardModel [] = [];
+  categories2: CategoryCardModel [] = [];
 
   constructor() {
-    for(var category of mock_category_list){
-      console.log(category);
-      this.categories.push(category);
+    for(var x of mock_category_list){
+      console.log(x);
+      this.categories.push(x);
     }
+
+    for(var y of mock_category_list2){
+      console.log(y);
+      this.categories2.push(y);
+    }
+
   }
 
 }

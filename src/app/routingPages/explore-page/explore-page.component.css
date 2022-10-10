@@ -1,9 +1,20 @@
 .catCardFormat{
- 
-    margin-left: 20%;
-    margin-right: 7%;
+    justify-content: space-evenly;
+    margin-left: 21%;
+    margin-right: 19%;
+    margin-top: -2%;
+    height: 150px;
     
 }
+.catCardFormat2{
+    justify-content: space-evenly;
+    margin-left: 21%;
+    margin-right: 38.9%;
+    margin-top: -2.5%;
+    height: 150px;
+    
+}
+
 .backgroundColor{
     background-color: rgb(249,249,249);
     width: 100%; 
@@ -18,12 +29,18 @@
     color: black;
     font-weight: 410;
 }
+.sectionHeading2{
+    margin-top: -0.9%;
+    margin-left: 21.6%;
+    color: black;
+    font-weight: 410;
+}
 .sectionDivider{
     margin-left: 8%;
     width: 80%;
 }
 .shorts{
     margin-top: -0.9%;
-    margin-left: 14.8%;
-    width: 85.2%;
+    margin-left: 20%;
+    width: 100%;
 }
