@@ -1,0 +1,22 @@
+.letsGO{
+    background-color: Rgb(255,255,255);
+    margin-right: 3%;
+    border-radius: 2px;
+    font-size: medium;
+    font-weight: 600;
+}
+.letsGO:hover{
+    background-color: Rgb(255,255,255);
+}
+.letsGO:active{
+    background-color: Rgb(255,255,255);
+}
+.backgroundColor{
+    background-color: black;
+}
+.title{
+    color:Rgb(255,255,255);
+}
+.otherText{
+    color: gray;
+}

@@ -3,6 +3,8 @@
     border-color: transparent;
     border-radius: 0px;
     background-color: transparent;
+    width: 92%;
+    height: 40%;
 }
 .img{
     margin-left: 35%;
@@ -10,7 +12,8 @@
     width:30%;
 }
 .title{
-    margin-top: -4%;
+    margin-left: -8%;
+    margin-top: -20%;
     font-size: 105%;
     color: black;
     font-weight: 410;
@@ -19,20 +22,22 @@
     overflow: hidden;
 }
 .channel{
-    
+    margin-left: -8%;
     font-size: 75%;
     color: rgb(148,148,148);
     font-weight: 410;
 }
 .vd{
+    margin-left: -8%;
     margin-top: -6%;
     font-size: 75%;
     color: rgb(148,148,148);
     font-weight: 410;
 }
 .logo{
-    margin-top: 45%;
-    margin-left: 25%;
+    margin-top: -47%;
+    margin-left: 94%;
+    margin-bottom: 0%;
     
 }
 .bgcolor{
