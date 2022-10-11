@@ -1,10 +1,23 @@
+
 .backgroundColor{
     background-color: black;
     
 }
 .title{
+    font-size: 95%;
+    margin-bottom:0.2%;
     color: rgb(255,255,255);
+    font-weight: 800;
 }
 .artist{
+    font-weight: 300;
+    font-size: medium;
     color: rgb(180,180,180);
+}
+.thumbnail{
+    margin-top: 10%;
+    margin-left: 75%;
+    border-radius: 2px;
+    width: 27%;
+    height: 60%;
 }
