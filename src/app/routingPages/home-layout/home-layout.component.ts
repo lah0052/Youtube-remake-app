@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { mock_video_list } from 'src/app/navigation/mock_video_list';
 import { VideoCardModel } from 'src/app/navigation/video-card.model';
 
@@ -7,7 +7,7 @@ import { VideoCardModel } from 'src/app/navigation/video-card.model';
   templateUrl: './home-layout.component.html',
   styleUrls: ['./home-layout.component.css']
 })
-export class HomeLayoutComponent  {
+export class HomeLayoutComponent implements OnInit {
 
   videos: VideoCardModel [] = [];
 
@@ -18,4 +18,7 @@ export class HomeLayoutComponent  {
     }
   }
 
+  ngOnInit(): void {
+    throw new Error("Method not implemented.");
+  }
 }
