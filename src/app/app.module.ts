@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './navigation/top-nav-bar/top-nav-bar.component';
@@ -19,7 +20,7 @@ import { ShortsCardComponent } from './navigation/shorts-card/shorts-card.compon
 import { MusicNavbarComponent } from './navigation/music-navbar/music-navbar.component';
 import { SongCardComponent } from './navigation/song-card/song-card.component';
 import { PlaylistCardComponent } from './navigation/playlist-card/playlist-card.component';
-
+import { UserInfoComponent } from './navigation/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -40,12 +41,14 @@ import { PlaylistCardComponent } from './navigation/playlist-card/playlist-card.
     MusicNavbarComponent,
     SongCardComponent,
     PlaylistCardComponent,
+    UserInfoComponent,
     
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

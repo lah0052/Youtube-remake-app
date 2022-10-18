@@ -1,0 +1,41 @@
+lab 4 9-26-2022 Changes
+     1.Made my previous card where i can use the ngFor loop to make them by using attributes and data binding     
+     2.New mock list with multiple instances     
+     3.New model class     
+     4.Made ngFor loop to create the cards     
+     5.In app component html, made the video card into rows and columns and added ngFor    
+     6.attributes         
+        img = the thumbnail            
+        time = timestamp         
+        profile = profile pic          
+        video_title = video title        
+        channel _name = channel name         
+        Views_date = amount of views and time since upload 
+9-27-2022 Changes     
+    1.Formatted the video cards      
+    2.Brought the time stamp on top of thumbnail     
+    3.Changed fonts and font weight      
+    4.Margins     
+    5.Limited text to 2 lines for the title     
+    6.Added background color behind the cards     
+    7.Change top nav bar background color 
+Lab 5 Changes   
+    1.made 3 new components for the explore page and added 2 old ones       
+        new         
+            a. category card (made with ngFor loop)         
+            b. trending videos (data binding)         
+            c. trending shorts (data binding)       
+        old         
+            a. top nav bar         
+            b. side nav bar   
+    2. made a new page music because none of the others I made for lab4 had enough on them    
+    3. made 3 new components for the music page       
+        new          
+            a. top navbar          
+            b. song cards     (data binding)         
+            c. a card that serves as a divider   
+    4. all the new stuff was formatted with flex
+Lab 6 Changes
+    1. Made a realtime database using firebase and added my first and last name, mix id, and github repository link
+    2. we used the json file and some http client stuff to get the info from the realtime database using the newly made user info component
+    3. added the usercomponent to my app component so its on every page ive made but I might just change one page i havent filled out to it.
