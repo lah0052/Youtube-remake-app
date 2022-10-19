@@ -1,7 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import {VideoCardModel} from "./video-card.model";
 import {Injectable} from "@angular/core";
-//at 16:40 in videoe
+
 @Injectable(
     {providedIn: 'root'}
 )
@@ -15,6 +15,9 @@ export class VideoService{
 
     getVideos(){
         return this.http.get<VideoCardModel []>(this.baseUrl + this.videosEndPoint);
+    }
+    getVideo(index: number){
+        return this.http.get<VideoCardModel []>(this.baseUrl + this.videosEndPoint + 'video-card' + '/' + index + '.json');
     }
 }
 

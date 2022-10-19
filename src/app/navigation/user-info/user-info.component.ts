@@ -19,7 +19,7 @@ export class UserInfoComponent implements OnInit {
     return this.http.get<UserInfo>('https://app-3a7ef-default-rtdb.firebaseio.com/my-info.json')
   }
   showUserInfo(){
-    this.getUserInfo().subscribe( data =>{
+    this.getUserInfo().subscribe( data=>{
       console.log(data);
       this.myInfo = data;
     })
