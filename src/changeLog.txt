@@ -39,3 +39,5 @@ Lab 6 Changes
     1. Made a realtime database using firebase and added my first and last name, mix id, and github repository link
     2. we used the json file and some http client stuff to get the info from the realtime database using the newly made user info component
     3. added the usercomponent to my app component so its on every page ive made but I might just change one page i havent filled out to it.
+Lab 7 Changes
+    1. changed the video cards to be generated with a for loop and a realtime database, from the previous ngFor loop and mock list set up
