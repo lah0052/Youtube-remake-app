@@ -41,3 +41,6 @@ Lab 6 Changes
     3. added the usercomponent to my app component so its on every page ive made but I might just change one page i havent filled out to it.
 Lab 7 Changes
     1. changed the video cards to be generated with a for loop and a realtime database, from the previous ngFor loop and mock list set up
+Lab 8 Changes
+	1. set up hosting and made changes in the code to be able to deploy the webpage
+	2. also added some hover and active to the side navbar(grey when hovered over, darker gray when clicked)
