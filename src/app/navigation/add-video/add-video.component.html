@@ -1,0 +1,41 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "col-8">
+            <form #postForm = "ngForm" (ngSubmit)= "addVideo(postForm.value)">
+                <div class = "input-group">
+                    <span class = "input-group-text">Thumbnail Path</span>
+                    <input type = "text" class = "form-control" ngModel name = "img">
+                </div>
+
+                <div class = "input-group">
+                    <span class = "input-group-text">Video Length</span>
+                    <input type = "text" class = "form-control" ngModel name = "time">
+                </div>
+
+                <div class = "input-group">
+                    <span class = "input-group-text">Profile Pic Path</span>
+                    <input type = "text" class = "form-control" ngModel name = "profile">
+                </div>
+
+                <div class = "input-group">
+                    <span class = "input-group-text">Video Title</span>
+                    <input type = "text" class = "form-control" ngModel name = "video_title">
+                </div>
+
+                <div class = "input-group">
+                    <span class = "input-group-text">Channel Name</span>
+                    <input type = "text" class = "form-control" ngModel name = "channel_name">
+                </div>
+
+                <div class = "input-group">
+                    <span class = "input-group-text">Views and time since upload</span>
+                    <input type = "text" class = "form-control" ngModel name = "views_date">
+                </div>
+
+                <button class = " btn btn-dark" type = "submit" [disabled] = "!postForm.valid">
+                    Add Product
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

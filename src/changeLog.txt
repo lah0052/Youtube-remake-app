@@ -44,3 +44,4 @@ Lab 7 Changes
 Lab 8 Changes
 	1. set up hosting and made changes in the code to be able to deploy the webpage
 	2. also added some hover and active to the side navbar(grey when hovered over, darker gray when clicked)
+Lab 9 Changes

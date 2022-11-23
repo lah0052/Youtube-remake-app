@@ -21,6 +21,8 @@ import { MusicNavbarComponent } from './navigation/music-navbar/music-navbar.com
 import { SongCardComponent } from './navigation/song-card/song-card.component';
 import { PlaylistCardComponent } from './navigation/playlist-card/playlist-card.component';
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
+import { AddVideoComponent } from './navigation/add-video/add-video.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,13 +44,15 @@ import { UserInfoComponent } from './navigation/user-info/user-info.component';
     SongCardComponent,
     PlaylistCardComponent,
     UserInfoComponent,
+    AddVideoComponent,
     
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
