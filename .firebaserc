@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "app-3a7ef"
+  },
+  "targets": {
+    "app-3a7ef": {
+      "hosting": {
+        "hello-world-app": [
+          "app-3a7ef"
+        ]
+      }
+    }
   }
 }

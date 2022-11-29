@@ -1,4 +1,14 @@
 export const environment = {
+  firebase: {
+    projectId: 'app-3a7ef',
+    appId: '1:118824709470:web:a6aa9656efc09fc42373cf',
+    databaseURL: 'https://app-3a7ef-default-rtdb.firebaseio.com',
+    storageBucket: 'app-3a7ef.appspot.com',
+    apiKey: 'AIzaSyBvJQYr5BIQ6kBd1MH5Xdfyk7SStNqSdUM',
+    authDomain: 'app-3a7ef.firebaseapp.com',
+    messagingSenderId: '118824709470',
+    measurementId: 'G-D51JM938G6',
+  },
   production: true
 };
 // Import the functions you need from the SDKs you need

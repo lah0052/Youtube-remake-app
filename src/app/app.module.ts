@@ -23,6 +23,12 @@ import { PlaylistCardComponent } from './navigation/playlist-card/playlist-card.
 import { UserInfoComponent } from './navigation/user-info/user-info.component';
 import { AddVideoComponent } from './navigation/add-video/add-video.component';
 import { FormsModule } from '@angular/forms';
+import {AngularFirestoreModule} from '@angular/fire/compat/firestore/';
+import {AngularFireModule} from '@angular/fire/compat';
+import {environment} from 'src/environments/environment';
+
+
+
 
 @NgModule({
   declarations: [
@@ -45,14 +51,14 @@ import { FormsModule } from '@angular/forms';
     PlaylistCardComponent,
     UserInfoComponent,
     AddVideoComponent,
-    
-    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

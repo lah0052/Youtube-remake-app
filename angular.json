@@ -90,12 +90,19 @@
               "src/assets"
             ],
             "styles": [
-             
               "src/styles.css"
             ],
-            "scripts": [
-              
-            ]
+            "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "hello-world-app:build:production",
+            "firebaseProject": "app-3a7ef",
+            "firebaseHostingSite": "app-3a7ef"
           }
         }
       }
