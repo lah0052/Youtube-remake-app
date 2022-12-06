@@ -26,6 +26,7 @@ import { FormsModule } from '@angular/forms';
 import {AngularFirestoreModule} from '@angular/fire/compat/firestore/';
 import {AngularFireModule} from '@angular/fire/compat';
 import {environment} from 'src/environments/environment';
+import { AuthComponent } from './auth/auth/auth.component';
 
 
 
@@ -51,6 +52,7 @@ import {environment} from 'src/environments/environment';
     PlaylistCardComponent,
     UserInfoComponent,
     AddVideoComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,

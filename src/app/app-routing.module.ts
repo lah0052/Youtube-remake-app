@@ -7,6 +7,7 @@ import {SubscriptionsLayoutComponent} from './routingPages/subscriptions-layout/
 import {SigninLayoutComponent} from './routingPages/signin-layout/signin-layout.component';
 import {MusicComponent} from './routingPages/music/music.component';
 import { AddVideoComponent } from './navigation/add-video/add-video.component';
+import { AuthComponent } from './auth/auth/auth.component';
 
 const routes: Routes = [ 
 {path: '', component: HomeLayoutComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
 {path: 'subs' , component: SubscriptionsLayoutComponent},
 {path: 'signIn', component: SigninLayoutComponent},
 {path: 'music', component: MusicComponent},
-{path: 'admin', component: AddVideoComponent}
+{path: 'admin', component: AddVideoComponent},
+{path: 'auth', component: AuthComponent}
 
 ]; // sets up routes constant where you define your routes
 
