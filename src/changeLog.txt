@@ -46,3 +46,6 @@ Lab 8 Changes
 	2. also added some hover and active to the side navbar(grey when hovered over, darker gray when clicked)
 Lab 9 Changes
     1. added forms that allow you to add a video card using the forms that send that information entered to the realtime firebase.
+Lab 10 
+    1. added the auth component which allows users to login with a valid email and a password of a minimum length of 8
+    2. we used if and reutnurn statments for the first time in auth service and auth component
