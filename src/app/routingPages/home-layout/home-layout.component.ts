@@ -22,6 +22,6 @@ export class HomeLayoutComponent implements OnInit {
         console.log(video);
         this.videos.push(video);
       }  
-    });    
-  }
+    });   
+  } 
 }
