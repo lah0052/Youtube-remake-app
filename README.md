@@ -1,5 +1,9 @@
 # HelloWorldApp
 
+This is a project from my introduction to software engineering class where in the lab we were to remake an app, I choose youtube and this is the code for it
+
+link for deployed website: https://app-3a7ef.web.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
