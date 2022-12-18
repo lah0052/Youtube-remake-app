@@ -14,20 +14,15 @@ Throughout the first half of the semester we were taught the basics of the front
 The second half of the semester  we were introduced to Firebase. We used firebases realtime databse, hosting, and authentication features.
 
 ## Features
-  - Task List
-    - Simple list to keep track of a users goals
-  - Timer
-    - The timer keeps track of the user's work and break periods
-  - Journal
-    - The journal is an open area to jot down notes of any kind
-  - Planner
-    - The planner allows the user to add upcoming events with a date, time, title, and short description
-  - Settings
-    - The settings page allows the user to customize the duration of their work and break periods
-  - Login / Logout
-    - Users are able to login to their account to view all the public data associated with their account
-  - Notifications
-    - Motivates the user to press on with uplifting messages
+  - SignIn/LogIn 
+    - SignIn/LogIn is enabled by firebases authentication feature, this is accessed via the /auth page linked to the sign in buttons located on the sidenav bar, and navbar. This was coded in html and typescript. HTML set up the forms and called the functions made in the typescript.
+  - Add video
+    - Videos can be added via the add video button located at the bottom of the screen. This is set up using firebases realtime database and typescript. They are added to the database with forms and once the sumit video button is hit the .push function sends the entered info to the database, which also displays the new video on the home page.
+  - Routing
+    - most buttons will take take users to the corresponding pages
+  - Aesthetics 
+    - looks pretty good for the first thing I've ever don in html, css, and typscript. TH preportions aren't right on some screens but that was out of the scope of the lab and Angular is old.
+  
 
 
 ## Screenshots
