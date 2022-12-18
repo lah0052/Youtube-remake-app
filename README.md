@@ -27,15 +27,15 @@ The second half of the semester  we were introduced to Firebase. We used firebas
 
 ## Screenshots
 
-Hoome Page:
+#### Home Page:
 
 ![CS-230 lab home page](https://user-images.githubusercontent.com/111936234/208282950-0ff8deb2-d033-442f-afe4-715e7294c09d.png)
 
-Explore Page:
+#### Explore Page:
 
 ![CS-230 lab explore page](https://user-images.githubusercontent.com/111936234/208282954-8dd667df-7681-4168-8c6b-08e7dcd65283.png)
 
-Music Page:
+#### Music Page:
 
 ![CS-230 lab music page](https://user-images.githubusercontent.com/111936234/208282957-c1eb6ab0-6da4-4ef7-9482-915023004a4c.png)
 
