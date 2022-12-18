@@ -2,6 +2,8 @@
 
 Link for deployed website: https://app-3a7ef.web.app/
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+
 ## Overview
 This is a project from my introduction to software engineering lab. We were tasked with remakeing a website. The website I remade is Youtube. The main goal of this lab was to imitate the websites look and feel, functionality was somewhat of a afterthought. 
 
@@ -11,10 +13,24 @@ Throughout the first half of the semester we were taught the basics of the front
 ## Backend
 The second half of the semester  we were introduced to Firebase. We used firebases realtime databse, hosting, and authentication features.
 
-##Features
+## Features
+  - Task List
+    - Simple list to keep track of a users goals
+  - Timer
+    - The timer keeps track of the user's work and break periods
+  - Journal
+    - The journal is an open area to jot down notes of any kind
+  - Planner
+    - The planner allows the user to add upcoming events with a date, time, title, and short description
+  - Settings
+    - The settings page allows the user to customize the duration of their work and break periods
+  - Login / Logout
+    - Users are able to login to their account to view all the public data associated with their account
+  - Notifications
+    - Motivates the user to press on with uplifting messages
 
 
-##Screenshots
+## Screenshots
 
 Hoome Page:
 
@@ -31,7 +47,7 @@ Music Page:
  
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+
 
 ## Development server
 
