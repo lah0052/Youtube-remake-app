@@ -1,8 +1,17 @@
 # Youtube Remake 
 
-This is a project from my introduction to software engineering class where in the lab we were to remake an app, I choose youtube and this is the code for it
+This is a project from my introduction to software engineering class where in the lab we were to remake a website, I chose youtube and this is the code for it. The main goal of this lab was to imitate the websites look and feel, functionality was somewhat of a afterthought. Throughout the first half of the semester we were taught the basics of the frontend of the website and were tasked with remaking certain parts of our chosen website (so some parts don't have functionality). The second part of the lab dealt with backend where we used firebases realtime databse, hosting, and authentication features. The realtime database was used to store info for the video cards displayed on the home page, which you can also add with the add video button. Which takes you to the page with the forms where you can input the info for the video card (for pictures use links from internet). We used hosting to deploy the website which you can visit at the link below. The authintication is used for users to log in.
 
 link for deployed website: https://app-3a7ef.web.app/
+
+
+
+![CS-230 lab home page](https://user-images.githubusercontent.com/111936234/208282950-0ff8deb2-d033-442f-afe4-715e7294c09d.png)
+
+
+![CS-230 lab explore page](https://user-images.githubusercontent.com/111936234/208282954-8dd667df-7681-4168-8c6b-08e7dcd65283.png)
+
+![CS-230 lab music page](https://user-images.githubusercontent.com/111936234/208282957-c1eb6ab0-6da4-4ef7-9482-915023004a4c.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
