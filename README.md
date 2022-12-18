@@ -2,7 +2,7 @@
 
 Link for deployed website: https://app-3a7ef.web.app/
 
-##Overview
+## Overview
 This is a project from my introduction to software engineering lab. We were tasked with remakeing a website. The website I remade is Youtube. The main goal of this lab was to imitate the websites look and feel, functionality was somewhat of a afterthought. 
 
 ## Frontend
