@@ -15,13 +15,13 @@ The second half of the semester  we were introduced to Firebase. We used firebas
 
 ## Features
   - SignIn/LogIn 
-    - SignIn/LogIn is enabled by firebases authentication feature, this is accessed via the /auth page linked to the sign in buttons located on the sidenav bar, and navbar. This was coded in html and typescript. HTML set up the forms and called the functions made in the typescript.
+    - SignIn/LogIn is enabled by firebases authentication feature, this is accessed via the /auth page linked to the sign in buttons located on the sidenav bar, top nav bar on music page, and the top navbar on the home page. This was coded in html and typescript. HTML set up the forms and called the functions made in the typescript.
   - Add video
     - Videos can be added via the add video button located at the bottom of the screen. This is set up using firebases realtime database and typescript. They are added to the database with forms and once the sumit video button is hit the .push function sends the entered info to the database, which also displays the new video on the home page.
   - Routing
     - most buttons will take take users to the corresponding pages
   - Aesthetics 
-    - looks pretty good for the first thing I've ever don in html, css, and typscript. TH preportions aren't right on some screens but that was out of the scope of the lab and Angular is old.
+    - looks pretty good for the first thing I've ever done in html, css, and typscript. The preportions aren't right on some screens but that was out of the scope of the lab and Angular is old.
   
 
 
@@ -38,10 +38,6 @@ The second half of the semester  we were introduced to Firebase. We used firebas
 #### Music Page:
 
 ![CS-230 lab music page](https://user-images.githubusercontent.com/111936234/208282957-c1eb6ab0-6da4-4ef7-9482-915023004a4c.png)
-
- 
-
-
 
 
 ## Development server
