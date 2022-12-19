@@ -17,9 +17,9 @@ The second half of the semester  we were introduced to Firebase. We used firebas
   - SignIn/LogIn 
     - SignIn/LogIn is enabled by firebases authentication feature, this is accessed via the /auth page linked to the sign in buttons located on the sidenav bar, top nav bar on music page, and the top navbar on the home page. This was coded in html and typescript. HTML set up the forms and called the functions made in the typescript.
   - Add video
-    - Videos can be added via the add video button located at the bottom of the screen. This is set up using firebases realtime database and typescript. They are added to the database with forms and once the submit video button is hit, the .push function sends the entered info to the database, which also displays the new video on the home page.
+    - Videos can be added via the add video button located at the bottom of the screen. This is set up using firebases realtime database and typescript. They are added to the database with forms and once the submit video button is hit, the .push function sends the entered info to the database, which also displays the new video on the home page. 
   - Routing
-    - most buttons will take take users to the corresponding pages
+    - most buttons will take take users to the corresponding pages.
   - Aesthetics 
     -  The look and feel of the web app is similar to Youtube, escspectailly because it was my  first time using HTML, CSS, and Typescript.
   
@@ -38,6 +38,20 @@ The second half of the semester  we were introduced to Firebase. We used firebas
 #### Music Page:
 
 ![CS-230 lab music page](https://user-images.githubusercontent.com/111936234/208282957-c1eb6ab0-6da4-4ef7-9482-915023004a4c.png)
+
+#### Login Process:
+![image](https://user-images.githubusercontent.com/111936234/208514195-f0e1464a-cfe1-4093-a85f-0d965bb87ed8.png)
+![image](https://user-images.githubusercontent.com/111936234/208514379-cf3f93cf-7b1d-4dcf-b758-32174808b5d2.png)
+![image](https://user-images.githubusercontent.com/111936234/208514540-20672b21-4843-48e5-b43c-ed6bdc4722b6.png)
+![image](https://user-images.githubusercontent.com/111936234/208514757-c1bae860-d9ee-43fc-9506-2b126c254e57.png)
+
+
+#### Add Video Process:
+![image](https://user-images.githubusercontent.com/111936234/208513275-158ab536-479f-4edd-bdd2-c3134752d556.png)
+![image](https://user-images.githubusercontent.com/111936234/208513691-d2abcaca-920f-4b7d-b808-17669cd3b4a3.png)
+![image](https://user-images.githubusercontent.com/111936234/208513880-54a28c92-8297-4ef0-ae09-69ddd5f88ad2.png)
+
+
 
 
 ## Development server
