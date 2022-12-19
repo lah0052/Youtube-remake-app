@@ -40,15 +40,22 @@ The second half of the semester  we were introduced to Firebase. We used firebas
 ![CS-230 lab music page](https://user-images.githubusercontent.com/111936234/208282957-c1eb6ab0-6da4-4ef7-9482-915023004a4c.png)
 
 #### Login Process:
+Step 1: Click the sign in button on top navbar.This takes users to the login page shown in the next picture
 ![image](https://user-images.githubusercontent.com/111936234/208514195-f0e1464a-cfe1-4093-a85f-0d965bb87ed8.png)
+Step 2: The user will enter their email and password then click sign up. 
 ![image](https://user-images.githubusercontent.com/111936234/208514379-cf3f93cf-7b1d-4dcf-b758-32174808b5d2.png)
+Step 3: once signed users should re-enter info then click login which will log them in and take them back to the home page
 ![image](https://user-images.githubusercontent.com/111936234/208514540-20672b21-4843-48e5-b43c-ed6bdc4722b6.png)
+The created user shown in Firebase
 ![image](https://user-images.githubusercontent.com/111936234/208514757-c1bae860-d9ee-43fc-9506-2b126c254e57.png)
 
 
 #### Add Video Process:
+Step 1: Click the add video button, takes users to the add video page.
 ![image](https://user-images.githubusercontent.com/111936234/208513275-158ab536-479f-4edd-bdd2-c3134752d556.png)
+Step 2: The user will fill out the forms and when done click the "Add Video" button; which adds the info to the firebase, displays the new video, and takes you back to the hoem page. for thumbnail and profile pic, copy and paste the image link into the form.
 ![image](https://user-images.githubusercontent.com/111936234/208513691-d2abcaca-920f-4b7d-b808-17669cd3b4a3.png)
+Added video displayed on homepage.
 ![image](https://user-images.githubusercontent.com/111936234/208513880-54a28c92-8297-4ef0-ae09-69ddd5f88ad2.png)
 
 
