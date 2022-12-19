@@ -1,33 +1,33 @@
-<div style= "height: 50px;">
+<div style="height: 50px;">
     <app-top-nav-bar> </app-top-nav-bar>
 </div>
 
 <div>
-<ul class= "navbar">
-    <nav class ="nav-item">
-        <app-side-nav-bar> </app-side-nav-bar>
+    <ul class="navbar">
+        <nav class="nav-item">
+            <app-side-nav-bar> </app-side-nav-bar>
 
 
-    </nav>
-    <nav class ="nav-item">
-        <app-second-nav-bar></app-second-nav-bar>
-    </nav>
-    
+        </nav>
+        <nav class="nav-item">
+            <app-second-nav-bar></app-second-nav-bar>
+        </nav>
 
-</ul> 
+
+    </ul>
 </div>
-<div class = "nav-item backgroundColor" style = "font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;">
-<div class = "row row row-cols-1 row-cols-md-4 nav-item spacing" >
-    <div *ngFor = "let video of videos">
-        <app-video-card 
-            img = {{video.img}} 
-            time = {{video.time}} 
-            profile= {{video.profile}}
-            video_title = {{video.video_title}} 
-            channel_name = {{video.channel_name}} 
-            views_date = {{video.views_date}}>
-        </app-video-card>
+<div class="nav-item backgroundColor" style="font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;">
+    <div class="row row row-cols-1 row-cols-md-4 nav-item spacing">
+        <div *ngFor="let video of videos">
+            <app-video-card img={{video.img}} time={{video.time}} profile={{video.profile}}
+                video_title={{video.video_title}} channel_name={{video.channel_name}} views_date={{video.views_date}}>
+            </app-video-card>
+        </div>
     </div>
 </div>
+<div>
+    <a style = "margin-left: 94%;" routerLink = "/addVideo" routerLinkActive = "active">
+    <button class = " btn btn-dark">
+        Add Video
+    </button></a>
 </div>
-

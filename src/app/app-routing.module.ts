@@ -17,7 +17,7 @@ const routes: Routes = [
 {path: 'subs' , component: SubscriptionsLayoutComponent},
 {path: 'signIn', component: SigninLayoutComponent},
 {path: 'music', component: MusicComponent},
-{path: 'admin', component: AddVideoComponent},
+{path: 'addVideo', component: AddVideoComponent},
 {path: 'auth', component: AuthComponent}
 
 ]; // sets up routes constant where you define your routes

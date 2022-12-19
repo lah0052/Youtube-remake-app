@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { AuthService } from './auth.service';
 import { AuthResponse } from './authResponse';
+import { Router} from '@angular/router';
 
 @Component({
   selector: 'app-auth',
@@ -14,7 +15,7 @@ export class AuthComponent {
   public buttonClicked!: string;
   private authObservable!:  Observable<AuthResponse>;
 
-  constructor(private authService:AuthService){
+  constructor(private authService:AuthService, private router:Router){
 
   }
 
@@ -28,6 +29,7 @@ export class AuthComponent {
 
     if(this.buttonClicked == 'LogIn'){
       this.authObservable = this.authService.login(data.value.email, data.value.password);
+      this.router.navigate(['/home']);
       }
 
     
