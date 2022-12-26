@@ -21,7 +21,7 @@ The second half of the semester  we were introduced to Firebase. We used firebas
   - Routing
     - Most buttons will take take users to the corresponding pages.
   - Aesthetics 
-    - The look and feel of the web app is similar to Youtube, especially because it was my  first time using HTML, CSS, and Typescript.
+    - The look and feel of the web app is similar to Youtube.
   
 
 
